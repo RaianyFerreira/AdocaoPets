@@ -1,0 +1,98 @@
+/* HEADER/BARRA DE NAVEGAÇÃO*/
+header {
+    background-color: #F5F5F5;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    background-color: #F5F5F5;
+    padding: 24px;
+}
+/*logo do site*/
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 138px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+/*Itens do menu - Opções da barra de navegação*/
+.menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 60px;
+}
+
+.menu li {
+    margin-right: 30px;
+    font-family: Inter;
+    font-weight: bold;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+}
+
+/*Telefone*/
+.telefone {
+    display: flex;
+    align-items: center;
+    color: black;
+    padding: 2px 10px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-family: Inter;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-left: 155px;
+    font-weight: bold;
+}
+
+.imgTelefone {
+    width: 18px;
+    height: 18px;
+    margin-right: 11px;
+    padding-bottom: 2px;
+}
+/*Botão Donate*/
+.botaoDonate {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 28px;
+    margin-left: 0;
+    background-color: #FF3D9A;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 32px;
+    margin-left: 30px;
+    font-weight: bold;
+    font-family: Inter;
+}
+.botaoDonate img {
+    width: 23.81px;
+    height: 23.14px;
+}
+/*Linha - Separação*/
+hr {
+    width: 1200px;
+    background-color: black;
+    height: 1px;
+}
+
+/* HOME - PÁGINA DE INÍCIO*/
+body{
+    background-color: #F5F5F5;
+}
