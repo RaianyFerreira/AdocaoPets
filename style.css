@@ -93,6 +93,29 @@ hr {
 }
 
 /* HOME - PÁGINA DE INÍCIO*/
+
+.secao1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.secao1 .botoes {
+    margin-bottom: 20px;
+}
+.imgSecao1 {
+    width: 300px;
+    height: auto;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
 body{
     background-color: #F5F5F5;
 }
