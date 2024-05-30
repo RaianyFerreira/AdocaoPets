@@ -1,0 +1,280 @@
+/*SEÇÃO 2 - INFORMAÇÕES SOBRE AS DOAÇÕES*/
+
+.caixasLinha1 {
+    background-color: #1E1F27;
+    padding-left: 50px;
+
+}
+.caixasLinha2 {
+    background-color: #1E1F27;
+}
+.caixasTItulo {
+    margin: 20px 0;
+    color: #FFFFFF;
+    padding-left: 160px;
+}
+
+/*Primeira caixa de informações*/
+.box1 {
+    border: 2px solid;
+    padding: 10px 5px 15px 4px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 210px;
+
+}
+.box1 .header1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box1 img {
+    margin-right: 20px;
+    max-width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.box1 h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.box1 p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+.box1 .header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.box1 img {
+    padding-left: 90px;
+    max-width: 63px;
+    height: 63px;
+}
+/*Segunda caixa de informações*/
+.box2 {
+    border: 2px solid;
+    padding: 10px 5px 15px 4px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 210px;
+
+}
+.box2 .header1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box2 img {
+    margin-right: 20px;
+    max-width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.box2 h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.box2 p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+.box2 .header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.box2 img {
+    padding-left: 90px;
+    max-width: 63px;
+    height: 63px;
+}
+/*Terceira caixa de informações*/
+.box3 {
+    border: 2px solid;
+    padding: 10px 5px 15px 4px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 210px;
+
+}
+.box3 .header1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box3 img {
+    margin-right: 20px;
+    max-width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.box3 h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.box3 p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+.box3 .header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.box3 img {
+    padding-left: 90px;
+    max-width: 63px;
+    height: 63px;
+}
+/*Quarta caixa de informações*/
+.box4 {
+    border: 2px solid;
+    padding: 10px 5px 15px 4px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 210px;
+
+}
+.box4 .header1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box4 img {
+    margin-right: 20px;
+    max-width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.box4 h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.box4 p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+.box4 .header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.box4 img {
+    padding-left: 90px;
+    max-width: 63px;
+    height: 63px;
+}
+/*Quinta caixa de informações*/
+.box5 {
+    border: 2px solid;
+    padding: 10px 5px 15px 4px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 210px;
+
+}
+.box5 .header1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box5 img {
+    margin-right: 20px;
+    max-width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.box5 h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.box5 p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+.box5 .header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.box5 img {
+    padding-left: 90px;
+    max-width: 63px;
+    height: 63px;
+}
+/*Sexta caixa de informações*/
+.box6 {
+    border: 2px solid;
+    padding: 10px 5px 15px 4px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 237px;
+    height: 210px;
+
+}
+.box6 .header1 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box6 img {
+    margin-right: 20px;
+    max-width: 63px;
+    height: 63px;
+    border-radius: 50%;
+}
+.box6 h3 {
+    color: #FFFFFF;
+    margin: 0;
+}
+.box6 p {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    width: 100%;
+}
+.box6 .header {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+.box6 img {
+    padding-left: 90px;
+    max-width: 63px;
+    height: 63px;
+}

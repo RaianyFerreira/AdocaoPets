@@ -1,0 +1,99 @@
+/*SEÇÃO 2 - BLOCO COM ESTATÍSTICAS E CARROSSEL*/
+
+.blocoEstatistica {
+    height: 1200px;
+    background-color: #1E1F27;
+    margin: 0;
+    padding-bottom: 0;
+}
+/*Título da seção 2*/
+.blocoEstatistica h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    width: 1208px;
+    height: 134px;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 67.2px;
+    letter-spacing: -0.02em;
+    padding-top: 44px;
+    padding-bottom: 0;
+}
+
+/*Blocos*/
+.blocos {
+    display: flex;
+}
+.bloco1 h3 {
+    width: 300px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8DB46;
+    line-height: 4px;
+    padding-left: 173px;
+    padding-bottom: 0;
+}
+.bloco2 h3 {
+    width: 300px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8DB46;
+    padding-left: 17px;
+    line-height: 4px;
+}
+.bloco3 h3 {
+    width: 300px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8DB46;
+    line-height: 4px;
+    padding-left: 67px;
+}
+
+.bloco1 p {
+    margin: 0;
+    color: #FFFFFF;
+    padding-left: 120px;
+    width: 300px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2px;
+    padding-top: 2px;
+}
+.bloco2 p {
+    margin: 0;
+    color: #FFFFFF;
+    margin: 0;
+    color: #FFFFFF;
+    width: 300px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2px;
+    padding-top: 2px;
+    padding-left: 90px;
+}
+.bloco3 p {
+    margin: 0;
+    color: #FFFFFF;
+    margin: 0;
+    color: #FFFFFF;
+    width: 300px;
+    height: 35px;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2px;
+    padding-top: 2px;
+    padding-right: 40px;
+}
