@@ -2,14 +2,15 @@
 
 .caixasLinha1 {
     background-color: #1E1F27;
-    padding-left: 300px;
+    padding-left: 148px;
     display: flex;
     margin: 0;
     padding-bottom: 0;
+    padding-top: 20px;
 }
 .caixasLinha2 {
     background-color: #1E1F27;
-    padding-left: 300px;
+    padding-left: 148px;
     display: flex;
     padding-top: 0;
     margin: 0;
@@ -18,11 +19,11 @@
     color: #FFFFFF;
     font-family: Poppins;
     padding-top: 40px;
-    padding-left: 442px;
+    padding-left: 287px;
     font-size: 41px;
     display: flex;
     width: 670px;
-    padding-bottom: 0;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -92,7 +93,7 @@
     white-space: nowrap;
 }
 .box2 img {
-    margin-left: 80px;
+    margin-right: 10px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
@@ -113,11 +114,7 @@
     font-size: 15px;
     font-weight: 500;
 }
-.box2 img {
-    max-width: 63px;
-    height: 63px;
 
-}
 /*Terceira caixa de informações*/
 .box3 {
     border: 2px solid;
@@ -136,7 +133,7 @@
     white-space: nowrap;
 }
 .box3 img {
-    margin-left: 80px;
+    margin-right: 10px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
@@ -157,11 +154,7 @@
     font-size: 15px;
     font-weight: 500;
 }
-.box3 img {
-    max-width: 63px;
-    height: 63px;
 
-}
 /*Quarta caixa de informações*/
 .box4 {
     border: 2px solid;
@@ -180,7 +173,7 @@
     white-space: nowrap;
 }
 .box4 img {
-    margin-left: 80px;
+    margin-right: 10px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
@@ -201,11 +194,7 @@
     font-size: 14.7px;
     font-weight: 500;
 }
-.box4 img {
-    max-width: 63px;
-    height: 63px;
 
-}
 /*Quinta caixa de informações*/
 .box5 {
     border: 2px solid;
@@ -224,7 +213,7 @@
     white-space: nowrap;
 }
 .box5 img {
-    margin-left: 80px;
+    margin-right: 10px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
@@ -245,11 +234,7 @@
     font-size: 15px;
     font-weight: 500;
 }
-.box5 img {
-    max-width: 63px;
-    height: 63px;
 
-}
 /*Sexta caixa de informações*/
 .box6 {
     border: 2px solid;
@@ -268,7 +253,7 @@
     white-space: nowrap;
 }
 .box6 img {
-    margin-left: 80px;
+    margin-right: 10px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
@@ -288,8 +273,4 @@
     font-family: Inter;
     font-size: 15px;
     font-weight: 500;
-}
-.box6 img {
-    max-width: 63px;
-    height: 63px;
 }

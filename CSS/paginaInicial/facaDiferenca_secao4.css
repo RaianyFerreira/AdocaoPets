@@ -1,0 +1,223 @@
+.facaDiferenca_secao4 {
+    background-color: #1E1F27;
+    max-width: 100%;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+}
+
+.coracaoEsquerdo {
+    padding-top: 60px;
+}
+
+
+.header h2 {
+    display: inline-flex;
+    flex: 1;
+    margin: 0;
+    vertical-align: 40px;
+    padding-inline: 140px;
+    font-family: Poppins;
+    color: #FFFFFF;
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+/*PRIMEIRO CARD*/
+.cards {
+    background-color: #1E1F27;
+    padding-left: 100px;
+    display: flex;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 16px;
+}
+
+.card1 {
+    border: 2px solid;
+    padding: 10px 5px 5px 18px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    margin-right: 37px;
+}
+
+.card1 h3 {
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Poppins;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+}
+.card1 p {
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 18px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.card1 button {
+    padding: 15px 10px 15px 10px;
+    background-color: #04C27F;
+    color: #1E1F27;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 12px;
+}
+/*SEGUNDO CARD*/
+
+.card2 {
+    border: 2px solid;
+    padding: 10px 5px 5px 18px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    margin-right: 37px;
+}
+.card2 h3 {
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Poppins;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+
+}
+.card2 p {
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.card2 button {
+    padding: 15px 10px 15px 10px;
+    background-color: #F1D06E;
+    color: #1E1F27;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 12px;
+}
+/*TERCEIRO CARD*/
+.card3 {
+    border: 2px solid;
+    padding: 10px 5px 5px 18px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    margin-right: 37px;
+}
+
+.card3 h3 {
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Poppins;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 14px;
+    display: flex;
+
+}
+.card3 p {
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 16px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.card3 button {
+    padding: 15px 10px 15px 10px;
+    background-color: #FF3D9A;
+    color: #1E1F27;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 12px;
+}
+/*QUARTO CARD*/
+.card4 {
+    border: 2px solid;
+    padding: 10px 5px 5px 18px;
+    border-radius: 20px;
+    border-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    margin-right: 37px;
+}
+.card4 h3 {
+    color: #FFFFFF;
+    margin: 0;
+    font-family: Poppins;
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 7px;
+    display: flex;
+}
+.card4 p {
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 10px;
+    line-height: 25px;
+    text-align: center;
+    padding-bottom: 22px;
+}
+.card4 button {
+    padding: 15px 10px 15px 10px;
+    background-color: #5758F1;
+    color: #1E1F27;
+    border: none;
+    cursor: pointer;
+    border-radius: 16px;
+    font-family: Poppins;
+    font-weight: 800;
+    font-size: 15px;
+    margin-right: 12px;
+}

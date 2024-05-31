@@ -2,24 +2,28 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    margin: 0;
+    margin-left: 120px;
     box-sizing: border-box;
-    padding-left: 220px;
+    max-width: 1200px;
+    margin-bottom: 60px;
 }
+/*Titulo*/
 .tituloSecao3 {
     text-align: center;
     width: 100%;
-    padding-top: 30px;
+    padding-top: 70px;
     font-size: 48px;
     font-family: Poppins;
 }
+/*Imagem*/
 .imagemAdocaoInfo {
-    width: 470px;
+    width: 420px;
 }
 .imagemAdocaoInfo img {
-    width: 500px;
-    height: 500px;
+    width: 470px;
+    height: 470px;
 }
+/*CSS da lista*/
 .listaInfo {
     flex: 1;
     display: flex;
@@ -37,7 +41,7 @@
 }
 .listaInfo ul {
     list-style-type: disc;
-    margin: 0 0 20px 0;
+    margin: 0;
     font-family: Inter;
 }
 .listaInfo li {
@@ -45,17 +49,29 @@
     line-height: 30px;
     letter-spacing: -0.02em;
     gap: 20px;
-    font-weight: 700px;
+    font-weight: 500;
 }
-
+/*CSS do botão*/
 .listaInfo button {
-    padding-bottom: 30px;
-    padding: 10px 20px;
-    background-color: #007BFF;
+    margin-bottom: 20px;
+    padding: 15px 27px 15px 27px;
+    background-color: #1E1F27;
     color: white;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 32px;
     margin-left: 40px;
+    font-family: Poppins;
+    font-weight: 700;
 }
 
+@media (max-width: 1300px) {
+    .infoAdocao_secao3 {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        margin-left: 115px;
+        box-sizing: border-box;
+        max-width: 1200px;
+    }
+}
