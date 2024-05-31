@@ -1,99 +1,81 @@
-/*SEÇÃO 2 - BLOCO COM ESTATÍSTICAS E CARROSSEL*/
-
 .blocoEstatistica {
     height: 1200px;
     background-color: #1E1F27;
     margin: 0;
     padding-bottom: 0;
+    padding-top: 20px;
 }
+
 /*Título da seção 2*/
-.blocoEstatistica h2 {
+.tituloSecao2 {
+    padding-left: 3px;
     text-align: center;
     color: #FFFFFF;
     font-family: Poppins;
     width: 1208px;
     height: 134px;
-    font-size: 44px;
+    font-size: 41px;
     font-weight: 700;
     line-height: 67.2px;
     letter-spacing: -0.02em;
     padding-top: 44px;
-    padding-bottom: 0;
+    padding-bottom: 35px;
 }
 
 /*Blocos*/
 .blocos {
     display: flex;
+    justify-content: space-between;
 }
+
+.bloco1 h3, .bloco2 h3, .bloco3 h3 {
+    width: 300px;
+    height: 20px;
+    font-family: Poppins;
+    font-size: 38px;
+    font-weight: 700;
+    color: #F8DB46;
+    line-height: 4px;
+    display: flex;
+    margin: 0;
+}
+
 .bloco1 h3 {
-    width: 300px;
-    height: 20px;
-    font-family: Poppins;
-    font-size: 45px;
-    font-weight: 700;
-    color: #F8DB46;
-    line-height: 4px;
-    padding-left: 173px;
-    padding-bottom: 0;
+    padding-left: 218px;
+    width: 200px;
 }
+
 .bloco2 h3 {
-    width: 300px;
-    height: 20px;
-    font-family: Poppins;
-    font-size: 45px;
-    font-weight: 700;
-    color: #F8DB46;
-    padding-left: 17px;
-    line-height: 4px;
+    padding-right: 20px;
+    width: 240px;
 }
+
 .bloco3 h3 {
+    padding-left: 88px;
+}
+
+.bloco1 p, .bloco2 p, .bloco3 p {
+    margin: 0;
+    color: #FFFFFF;
     width: 300px;
-    height: 20px;
+    height: 35px;
     font-family: Poppins;
-    font-size: 45px;
+    font-size: 21px;
     font-weight: 700;
-    color: #F8DB46;
-    line-height: 4px;
-    padding-left: 67px;
+    line-height: 2px;
+    padding-top: 40px;
+    display: flex;
 }
 
 .bloco1 p {
-    margin: 0;
-    color: #FFFFFF;
-    padding-left: 120px;
-    width: 300px;
-    height: 35px;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 2px;
-    padding-top: 2px;
+    padding-left: 170px;
 }
+
 .bloco2 p {
-    margin: 0;
-    color: #FFFFFF;
-    margin: 0;
-    color: #FFFFFF;
-    width: 300px;
-    height: 35px;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 2px;
-    padding-top: 2px;
-    padding-left: 90px;
+    padding-left: 61px;
+    width: 140px;
 }
+
 .bloco3 p {
-    margin: 0;
-    color: #FFFFFF;
-    margin: 0;
-    color: #FFFFFF;
-    width: 300px;
-    height: 35px;
-    font-family: Poppins;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 2px;
-    padding-top: 2px;
-    padding-right: 40px;
+    padding-left: 20px;
 }

@@ -2,29 +2,41 @@
 
 .caixasLinha1 {
     background-color: #1E1F27;
-    padding-left: 50px;
-
+    padding-left: 300px;
+    display: flex;
+    margin: 0;
+    padding-bottom: 0;
 }
 .caixasLinha2 {
     background-color: #1E1F27;
+    padding-left: 300px;
+    display: flex;
+    padding-top: 0;
+    margin: 0;
 }
 .caixasTItulo {
-    margin: 20px 0;
     color: #FFFFFF;
-    padding-left: 160px;
+    font-family: Poppins;
+    padding-top: 40px;
+    padding-left: 442px;
+    font-size: 41px;
+    display: flex;
+    width: 670px;
+    padding-bottom: 0;
+    margin: 0;
 }
 
 /*Primeira caixa de informações*/
 .box1 {
     border: 2px solid;
-    padding: 10px 5px 15px 4px;
+    padding: 10px 5px 5px 18px;
     border-radius: 20px;
     border-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     width: 237px;
     height: 210px;
-
+    margin: 25px;
 }
 .box1 .header1 {
     display: flex;
@@ -40,13 +52,17 @@
 .box1 h3 {
     color: #FFFFFF;
     margin: 0;
+    font-family: Poppins;
+    padding-top: 10px;
 }
 .box1 p {
     color: #FFFFFF;
     margin-top: 15px;
-    margin-left: 15px;
     display: flex;
     width: 100%;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
 }
 .box1 .header {
     display: flex;
@@ -61,220 +77,219 @@
 /*Segunda caixa de informações*/
 .box2 {
     border: 2px solid;
-    padding: 10px 5px 15px 4px;
+    padding: 10px 5px 5px 20px;
     border-radius: 20px;
     border-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 237px;
+    width: 235px;
     height: 210px;
-
+    margin: 25px;
 }
-.box2 .header1 {
+.header2 {
     display: flex;
-    align-items: center;
     width: 100%;
+    white-space: nowrap;
 }
 .box2 img {
-    margin-right: 20px;
+    margin-left: 80px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
+    horiz-align: center;
 }
 .box2 h3 {
     color: #FFFFFF;
     margin: 0;
+    font-family: Poppins;
+    width: 400px;
+    padding-top: 20px;
 }
 .box2 p {
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-left: 15px;
     display: flex;
     width: 100%;
-}
-.box2 .header {
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
 }
 .box2 img {
-    padding-left: 90px;
     max-width: 63px;
     height: 63px;
+
 }
 /*Terceira caixa de informações*/
 .box3 {
     border: 2px solid;
-    padding: 10px 5px 15px 4px;
+    padding: 10px 5px 5px 20px;
     border-radius: 20px;
     border-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 237px;
+    width: 235px;
     height: 210px;
-
+    margin: 25px;
 }
-.box3 .header1 {
+.header3 {
     display: flex;
-    align-items: center;
     width: 100%;
+    white-space: nowrap;
 }
 .box3 img {
-    margin-right: 20px;
+    margin-left: 80px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
+    horiz-align: center;
 }
 .box3 h3 {
     color: #FFFFFF;
     margin: 0;
+    font-family: Poppins;
+    width: 400px;
+    padding-top: 20px;
 }
 .box3 p {
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-left: 15px;
     display: flex;
     width: 100%;
-}
-.box3 .header {
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
 }
 .box3 img {
-    padding-left: 90px;
     max-width: 63px;
     height: 63px;
+
 }
 /*Quarta caixa de informações*/
 .box4 {
     border: 2px solid;
-    padding: 10px 5px 15px 4px;
+    padding: 10px 5px 5px 20px;
     border-radius: 20px;
     border-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 237px;
+    width: 235px;
     height: 210px;
-
+    margin: 25px;
 }
-.box4 .header1 {
+.header4 {
     display: flex;
-    align-items: center;
     width: 100%;
+    white-space: nowrap;
 }
 .box4 img {
-    margin-right: 20px;
+    margin-left: 80px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
+    horiz-align: center;
 }
 .box4 h3 {
     color: #FFFFFF;
     margin: 0;
+    font-family: Poppins;
+    width: 400px;
+    padding-top: 20px;
 }
 .box4 p {
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-left: 15px;
     display: flex;
     width: 100%;
-}
-.box4 .header {
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
+    font-family: Inter;
+    font-size: 14.7px;
+    font-weight: 500;
 }
 .box4 img {
-    padding-left: 90px;
     max-width: 63px;
     height: 63px;
+
 }
 /*Quinta caixa de informações*/
 .box5 {
     border: 2px solid;
-    padding: 10px 5px 15px 4px;
+    padding: 10px 5px 5px 20px;
     border-radius: 20px;
     border-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 237px;
+    width: 235px;
     height: 210px;
-
+    margin: 25px;
 }
-.box5 .header1 {
+.header5 {
     display: flex;
-    align-items: center;
     width: 100%;
+    white-space: nowrap;
 }
 .box5 img {
-    margin-right: 20px;
+    margin-left: 80px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
+    horiz-align: center;
 }
 .box5 h3 {
     color: #FFFFFF;
     margin: 0;
+    font-family: Poppins;
+    width: 400px;
+    padding-top: 20px;
 }
 .box5 p {
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-left: 15px;
     display: flex;
     width: 100%;
-}
-.box5 .header {
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
 }
 .box5 img {
-    padding-left: 90px;
     max-width: 63px;
     height: 63px;
+
 }
 /*Sexta caixa de informações*/
 .box6 {
     border: 2px solid;
-    padding: 10px 5px 15px 4px;
+    padding: 10px 5px 5px 20px;
     border-radius: 20px;
     border-color: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 237px;
+    width: 235px;
     height: 210px;
-
+    margin: 25px;
 }
-.box6 .header1 {
+.header6 {
     display: flex;
-    align-items: center;
     width: 100%;
+    white-space: nowrap;
 }
 .box6 img {
-    margin-right: 20px;
+    margin-left: 80px;
     max-width: 63px;
     height: 63px;
     border-radius: 50%;
+    horiz-align: center;
 }
 .box6 h3 {
     color: #FFFFFF;
     margin: 0;
+    font-family: Poppins;
+    width: 400px;
+    padding-top: 20px;
 }
 .box6 p {
     color: #FFFFFF;
-    margin-top: 15px;
-    margin-left: 15px;
     display: flex;
     width: 100%;
-}
-.box6 .header {
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
 }
 .box6 img {
-    padding-left: 90px;
     max-width: 63px;
     height: 63px;
 }

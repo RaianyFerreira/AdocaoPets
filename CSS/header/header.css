@@ -83,3 +83,9 @@ section {
     width: 23.81px;
     height: 23.14px;
 }
+/*Linha de separaçao*/
+hr {
+    width: 953px;
+    background-color: black;
+    height: 1px;
+}
