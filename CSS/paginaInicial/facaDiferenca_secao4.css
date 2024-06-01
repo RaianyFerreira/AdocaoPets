@@ -2,7 +2,6 @@
     background-color: #1E1F27;
     max-width: 100%;
 }
-
 .header {
     position: relative;
     text-align: center;
@@ -11,7 +10,6 @@
 .coracaoEsquerdo {
     padding-top: 60px;
 }
-
 
 .header h2 {
     display: inline-flex;

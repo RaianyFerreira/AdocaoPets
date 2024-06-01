@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <title>Desafio_4</title>
         <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="../CSS/paginaInicial/subscribe.css">
         <link rel="stylesheet" href="../CSS/paginaInicial/bestFriends.css">
         <link rel="stylesheet" href="../CSS/paginaInicial/facaDiferenca_secao4.css">
         <link rel="stylesheet" href="../CSS/paginaInicial/blocoInfos_secao2.css">
@@ -11,6 +12,7 @@
         <link rel="stylesheet" href="../CSS/paginaInicial/caixas_secao2.css">
         <link rel="stylesheet" href="../CSS/paginaInicial/home_secao1.css">
         <link rel="stylesheet" href="../CSS/header/header.css">
+        <link rel="stylesheet" href="../CSS/footer/footer.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -201,13 +203,14 @@
                     </div>
                 </div>
             </div>
+            <!--SEÇÃO 4 - FAÇA A DIFERENÇA-->
             <div class="facaDiferenca_secao4">
-            <div class="container">
-                <div class="header">
-                    <img class="coracaoEsquerdo" src="../img/coracao_esquerdo.png" alt="Coração esquerdo">
-                    <h2>How you can make <br> a difference</h2>
-                    <img class="coracaoDireito" src="../img/coracao_direito.png" alt="Coração direito">
-                </div>
+                <div class="container">
+                    <div class="header">
+                        <img class="coracaoEsquerdo" src="../img/coracao_esquerdo.png" alt="Coração esquerdo">
+                        <h2>How you can make <br> a difference</h2>
+                        <img class="coracaoDireito" src="../img/coracao_direito.png" alt="Coração direito">
+                    </div>
                     <div class="cards">
                         <div class="card1">
                             <div>
@@ -252,22 +255,82 @@
                             </button>
                         </div>
                     </div>
+                    <!--SEÇÃO BEST FRIEND-->
                     <div class="bestFriend_secao4">
-                        <div>
-                            <img class="imagemGato" src="../img/gato_bestFriend.png" alt="Imagem de gatinho e um peixe em cima">
-                            <h2>Find your best friend today!</h2>
-                            <img class="imagemCachorro" src="../img/cachorro_bestFriend.png" alt="Imagem de cachorro e osso em cima">
+                        <img class="imagemGato" src="../img/gato_bestFriend.png" alt="Imagem de gatinho e um peixe em cima">
+                        <div class="textoeBotaoBestFriend">
+                            <h2>Find your <span class="bestFriend">best friend</span>  today!</h2>
+                            <h3>Browse our adorable adoptables</h3>
+                            <div class="botoesBestFriend">
+                                <button class ="botaoViewAdoptablesBestFried">
+                                    <span>View Adoptables</span>
+                                </button>
+                                <button class ="botaoApplytoAdoptBestFriend">
+                                    <span>Apply to Adopt</span>
+                                </button>
+                            </div>
                         </div>
-                        <h3>Browse our adorable adoptables</h3>
-                        <button class ="botaoViewAdoptables">
-                            <span>View Adoptables</span>
-                        </button>
-                        <button class ="botaoApplytoAdopt">
-                            <span>Apply to Adopt</span>
-                        </button>
+                        <img class="imagemCachorro" src="../img/cachorro_bestFriend.png" alt="Imagem de cachorro e osso em cima">
                     </div>
                 </div>
             </div>
+            <!--SUBSCRIBE-->
+            <section class="subscribe">
+                <div class="container">
+                    <h2>Subscribe to our newsletter</h2>
+                    <p> for updates on shelter events, fundraising parties, and heartwarming stories <br>
+                        of animals finding their forever homes.</p>
+                    <div class="elementosSubscribe">
+                        <input type="email" id="emailInput" class="emailInput" placeholder="Enter your email">
+                        <button class="botaoSubscribe">Subscribe</button>
+                    </div>
+                </div>
+            </section>
+            <!--RODAPÉ DO SITE-->
+            <footer>
+                <div class="container">
+                    <div class="footer-container">
+                        <div class="footer-esquerdo">
+                            <img src="../img/logoRodapé.png" alt="Logo do rodapé">
+                        </div>
+                        <div class="footer-row1">
+                            <ul class="row1">
+                                <li>Adopt a Pet</li>
+                                <li>Adoptable Dogs</li>
+                                <li>Adoptable Cats</li>
+                                <li>Become a Foster</li>
+                                <li>Rescue Center</li>
+                                <li>Get Involved</li>
+                            </ul>
+                        </div>
+                        <div class="footer-row2">
+                            <ul class="row2">
+                                <li>Ways to Donate</li>
+                                <li>Upcoming Events</li>
+                                <li>Outreach Programs</li>
+                                <li>Who We Are</li>
+                                <li>Contact Us</li>
+                                <li>Shop With Purpose</li>
+                            </ul>
+                        </div>
+                        <div class="footer-direito">
+                            <ul class="contatos">
+                                <li class="rdSocial3"><img src="../img/icon-localizacao.png" alt="Localizacao"> PO Box 83644</li>
+                                <li class="rdSocial2"> Middleton, 2452 Wilson</li>
+                                <li class="rdSocial"><img src="../img/icon_telefone.png" alt="Telefone"> 631-249-7325</li>
+                                <li class="rdSocial"><img src="../img/icon_email.png" alt="Email"> pet_home@gmail.com</li>
+                            </ul>
+                            <div class="midiasSociais">
+                                <img src="../img/icon_Twitter.png" alt="Twitter">
+                                <img src="../img/icon_WhatsApp.png" alt="WhatsApp">
+                                <img src="../img/icon_Instagram.png" alt="Instagram">
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>We are not just a rescue, <span> we are a refuge </span></h3>
+                </div>
+            </footer>
         </div>
         <script src="../JavaScript/main.js"></script>
     </body>
