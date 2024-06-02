@@ -1,5 +1,6 @@
 .blocoEstatistica {
-    height: 1100px;
+    height: 1500px;
+    width: 100%;
     background-color: #1E1F27;
     margin: 0;
     padding-bottom: 0;
@@ -27,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     padding-left: 25px;
+    padding-bottom: 80px;
 }
 
 .bloco1 h3, .bloco2 h3, .bloco3 h3 {

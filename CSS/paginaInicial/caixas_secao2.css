@@ -14,11 +14,12 @@
     display: flex;
     padding-top: 0;
     margin: 0;
+    padding-bottom: 60px;
 }
 .caixasTItulo {
     color: #FFFFFF;
     font-family: Poppins;
-    padding-top: 40px;
+    padding-top: 35px;
     padding-left: 287px;
     font-size: 41px;
     display: flex;
