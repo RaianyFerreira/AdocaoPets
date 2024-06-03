@@ -1,0 +1,109 @@
+.adoptablePets {
+    background-color: #1E1F27;
+    padding-top: 33px;
+}
+
+.botaoBack {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 28px;
+    background-color: #37383F;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 32px;
+    font-family: Poppins;
+    font-weight: 500;
+    margin-left: 553px;
+    text-align: center;
+}
+.botaoBack img {
+    width: 23.81px;
+    height: 23.14px;
+    padding-right: 5px;
+}
+
+.adoptablePets h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-family: Poppins;
+    padding-left: 42px;
+}
+
+/*PETS - LINHA 1*/
+.petsLinha1 {
+    background-color: #1E1F27;
+    padding-left: 125px;
+    display: flex;
+    margin: 0;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+.petsLinha1 .header h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+.petsLinha1 .header img {
+    width: 200px;
+    height: 200px;
+    margin-inline: 20px;
+}
+
+/*PETS - LINHA 2*/
+.petsLinha2 {
+    background-color: #1E1F27;
+    display: flex;
+    padding-top: 0;
+    padding-bottom: 20px;
+    padding-left: 125px;
+}
+.petsLinha2 .header h3 {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 21px;
+    margin: 0;
+    padding-bottom: 11px;
+    padding-top: 11px;
+}
+.petsLinha2 .header img {
+    width: 200px;
+    height: 200px;
+    margin-inline: 20px;
+}
+
+/*BOTÃO SEE MORE*/
+.botaoSeeMore {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 28px;
+    background-color: #FF3D9A;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 32px;
+    margin-left: 41px;
+    font-family: Poppins;
+    font-weight: 600;
+    margin-bottom: 42px;
+}
+.botaoSeeMore img {
+    width: 23.81px;
+    height: 23.14px;
+}
+
+

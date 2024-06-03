@@ -1,3 +1,5 @@
+/*CARROSSEL*/
+
 const carrossel = document.querySelector(".carrossel .card");
 const arrowBtns = document.querySelectorAll(".conteudo i");
 const dots = document.querySelectorAll(".dot");
@@ -14,7 +16,7 @@ const updateDots = () => {
     });
 };
 
-// Move cards to the start or end based on the direction with fade effect
+
 const moveCards = (direction) => {
     carrossel.style.transition = "opacity 0.5s";
     carrossel.style.opacity = "0";
@@ -71,4 +73,16 @@ carrossel.addEventListener("touchmove", dragging);
 document.addEventListener("mouseup", dragStop);
 document.addEventListener("touchend", dragStop);
 
-updateDots(); // Inicializar os pontos na posição correta
+updateDots();
+
+/*BOTÕES*/
+
+function voltarPagInicial() {
+    var botaoDeVoltar = '../HTML/index.html';
+    window.location.href = botaoDeVoltar;
+}
+function adoptablePets() {
+    var botaoDeAdoptablePets = '../HTML/adoptablePets.html';
+    window.location.href = botaoDeAdoptablePets;
+}
+
