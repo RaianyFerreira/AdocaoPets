@@ -47,6 +47,7 @@
     text-align: center;
     color: #1E1F27;
     border: none;
+    cursor: pointer;
 }
 
 .emailInput {

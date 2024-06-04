@@ -1,0 +1,92 @@
+.sucess {
+    background-color: #1E1F27;
+    padding-bottom: 30px;
+}
+.imagensTopo .img1  {
+    width: 140px;
+    height: 140px;
+}
+.imagensTopo .img2 {
+    width: 130px;
+    height: 130px;
+    padding-left: 390px;
+    padding-right: 378px;
+}
+.imagensTopo .img3 {
+    width: 140px;
+    height: 140px;
+    position: relative;
+}
+.quadrado {
+    background-color: #F5F5F5;
+    width: 1000px;
+    height: 470px;
+    margin-left: 110px;
+    border-radius: 20px;
+}
+.quadrado h2 {
+    font-size: 70px;
+    font-family: Poppins;
+    text-align: center;
+    margin: 0;
+    padding-top: 60px;
+    padding-right: 20px;
+}
+.quadrado h3 span {
+  color: #FF3D9A;
+}
+
+.quadrado h3 {
+    font-size: 26px;
+    font-family: Poppins;
+    text-align: center;
+    margin: 0;
+    letter-spacing: 10px;
+    line-height: 10px;
+    padding-bottom: 40px;
+}
+.quadrado p {
+    text-align: center;
+    font-size: 18px;
+    font-family: Inter;
+    padding-bottom: 30px;
+    font-weight: 450;
+    color: dimgray;
+}
+
+.quadrado .botaoBackSucess {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 28px;
+    background-color: #FF3D9A;
+    color: white;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 32px;
+    font-family: Poppins;
+    font-weight: 680;
+    margin-left: 120px;
+    text-align: center;
+}
+.botaoBack img {
+    width: 23.81px;
+    height: 23.14px;
+    padding-right: 5px;
+}
+.imagensBaixo .img1 {
+    width: 140px;
+    height: 140px;
+}
+.imagensBaixo .img2 {
+    width: 130px;
+    height: 130px;
+    padding-left: 390px;
+    padding-right: 378px;
+}
+.imagensBaixo .img3 {
+    width: 140px;
+    height: 140px;
+}

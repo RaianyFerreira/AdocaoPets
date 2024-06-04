@@ -86,3 +86,8 @@ function adoptablePets() {
     window.location.href = botaoDeAdoptablePets;
 }
 
+function Sucess() {
+    var botaoDeSucesso = '../HTML/sucess.html';
+    window.location.href = botaoDeSucesso;
+}
+
