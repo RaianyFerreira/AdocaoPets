@@ -43,7 +43,6 @@ arrowBtns.forEach(btn => {
     });
 });
 
-// Drag functionality
 let isDragging = false, startX, startScrollLeft;
 
 const dragStart = (e) => {
@@ -75,7 +74,50 @@ document.addEventListener("touchend", dragStop);
 
 updateDots();
 
-/*BOTÕES*/
+const botaoAbreModal = document.querySelector("#abrirModal")
+const botaoAbreModal2 = document.querySelector("#abrirModal2")
+const botaoAbreModal3 = document.querySelector("#abrirModal3")
+const botaoFechaModal = document.querySelector("#fecharModal")
+const modal = document.querySelector("#modalDonate")
+const fade = document.querySelector("#fadeDonate");
+
+
+const situacaoModal = () => {
+    [modal, fade, botaoFechaModal].forEach((elemento) => elemento.classList.toggle("hide"));
+}
+
+[botaoAbreModal, fade, botaoAbreModal2, botaoAbreModal3,botaoFechaModal].forEach(elemento => {
+    elemento.addEventListener('click', () => console.log(situacaoModal()))
+})
+
+const botaoAbreModalAdopt = document.querySelector("#abrirModalAdopt")
+const botaoAbreModalAdopt2 = document.querySelector("#abrirModalAdopt2")
+const botaoAbreModalAdopt3 = document.querySelector("#abrirModalAdopt3")
+const botaoAbreModalAdopt4 = document.querySelector("#abrirModalAdopt4")
+const botaoFechaModalAdopt = document.querySelector("#fecharModalAdopt")
+const modalAdopt = document.querySelector("#modalApplytoAdopt")
+const fadeAdopt = document.querySelector("#fadeApplytoAdopt");
+const pagSucessDonate = document.querySelector("#botaoDonateModal");
+const pagSucessAdopt = document.querySelector("#botaoApplytoAdoptModal")
+
+const situacaoModalAdopt = () => {
+    [modalAdopt, fadeAdopt, botaoFechaModalAdopt].forEach((el) => el.classList.toggle("hide"));
+}
+
+pagSucessDonate.addEventListener('click', () => {
+    sucess();
+});
+
+pagSucessAdopt.addEventListener('click', () => {
+    sucess()
+});
+
+[botaoAbreModalAdopt, fadeAdopt, botaoAbreModalAdopt2, botaoAbreModalAdopt3, botaoAbreModalAdopt4, botaoFechaModalAdopt].forEach(el => {
+    el.addEventListener('click', () => console.log(situacaoModalAdopt()))
+});
+
+
+
 
 function voltarPagInicial() {
     var botaoDeVoltar = '../HTML/index.html';
@@ -85,9 +127,11 @@ function adoptablePets() {
     var botaoDeAdoptablePets = '../HTML/adoptablePets.html';
     window.location.href = botaoDeAdoptablePets;
 }
-
-function Sucess() {
-    var botaoDeSucesso = '../HTML/sucess.html';
-    window.location.href = botaoDeSucesso;
+function sucess() {
+    var botaoPagSucesso = '../HTML/sucess.html';
+    window.location.href = botaoPagSucesso;
 }
+
+
+
 

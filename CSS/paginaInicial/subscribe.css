@@ -57,6 +57,7 @@
     gap: 8px;
     border-radius: 32px;
     border: 2px solid #FFFFFF;
+    outline: none;
     background: #5758F1;
     font-family: Poppins;
     font-size: 15px;
