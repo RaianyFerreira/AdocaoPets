@@ -1,10 +1,10 @@
-﻿# Desafio_AWSFRONTEND - Primeiro projeto 
+﻿# Adoção de Pets 
 
 
 #  Sobre o projeto
-Esse projeto se trata de um site no qual o objetivo é resgatar e proporcionar reabilitação para cães e gatos gravemente feridos ou negligenciados, sendo utilizado apenas HTML, CSS e JavaScript puro nessa aplicação.
+Esse projeto se trata de um site no qual o objetivo é resgatar e proporcionar reabilitação para cães e gatos feridos ou negligenciados, sendo utilizado apenas HTML, CSS e JavaScript puro nessa aplicação.
 
-#Elementos do site
+# Elementos do site
 No site, é possível observar botões como: View Adoptable Pets, Donate, subscribe e Apply to Adopt
 View Adoptable Pets: É a lista de animalzinhos que você pode adotar disponíveis no abrigo (não disponível essa função no ite, apenas visível)
 Donate: é possível apoiar a causa e ajudar nessa missão. Com esse botão, você pode doar e dar uma força para a instituição
